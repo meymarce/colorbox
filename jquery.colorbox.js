@@ -248,6 +248,7 @@
 				var settings = new Settings(this, options);
 				return (settings.get('rel') === rel);
 			});
+			$related.sort();
 			index = $related.index(settings.el);
 			
 			// Check direct calls to Colorbox.
